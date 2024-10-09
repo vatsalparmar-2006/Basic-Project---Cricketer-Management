@@ -16,11 +16,7 @@ const cricketerSchema = new mongoose.Schema({
     role : {
         type : String,
         require : true
-    },
-    // image : {
-    //     type : String,
-    //     require : true
-    // }
+    }
 });
 
 module.exports = mongoose.model('CricketerModel.js',cricketerSchema, 'Cricketers');
